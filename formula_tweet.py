@@ -34,9 +34,10 @@ thenext = 'Is %(rapper1)s the next %(rapper2)s?' % fill_values
 oddways = '%(oddnumber)d reasons %(rapper1)s wouldn\'t be here without %(rapper2)s.' %fill_values
 mixtape = '%(rapper1)s should make a mixtape with %(rapper2)s.' % fill_values
 everything = '%(rapper1)s is everything rn.' % fill_values
+still = 'What about %(rapper2)s tho?' % fill_values
 
 # list of hydrated patterns
-possible_tweets = [thenext, oddways, mixtape, everything]
+possible_tweets = [thenext, oddways, mixtape, everything, still]
 
 tweet = random.choice(possible_tweets)
 
