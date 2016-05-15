@@ -50,8 +50,6 @@ auth.set_access_token(
 
 tw = tweepy.API(auth)
 
-tw.home_timeline()
-
 print(tweet)
 
 tw.update_status(status=tweet)
