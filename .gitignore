@@ -103,4 +103,5 @@ Thumbs.db
 .Rhistory
 *.db
 ~*
-
+*credentials.json*
+.*.swp

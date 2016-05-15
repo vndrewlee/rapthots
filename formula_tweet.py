@@ -35,7 +35,7 @@ oddways = '%(oddnumber)d reasons %(rapper1)s wouldn\'t be here without %(rapper2
 mixtape = '%(rapper1)s should make a mixtape with %(rapper2)s.' % fill_values
 everything = '%(rapper1)s is everything rn.' % fill_values
 still = 'What about %(rapper2)s tho?' % fill_values
-demographics = 'Who are these people always listening to %(rapper1)s?' % fill_values
+demographics = 'Who are these people who really listen to %(rapper1)s?' % fill_values
 
 # list of hydrated patterns
 possible_tweets = [thenext, oddways, mixtape, everything, still, demographics]
