@@ -11,7 +11,8 @@ with open('credentials.json') as data_file:
 sp_token = spotipy.util.prompt_for_user_token(
                             username='vndrewlee', 
                             client_id=credentials['sp_client_id'], 
-                            client_secret=credentials['sp_client_secret'])
+                            client_secret=credentials['sp_client_secret'],
+			    redirect_uri='https://www.google.com')
 
 # instantiate authorized spotify class
 sp = spotipy.Spotify(auth=sp_token)
